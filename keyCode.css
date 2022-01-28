@@ -10,12 +10,28 @@ body {
     background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
 }
 
-.heading {
+#heading {
     width: 100%;
-    padding: 50px 0;
+    padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.flex-box {
+  display: flex;
+  height: 100vh;
+  width: 100wh;
+  flex-wrap: wrap;
+}
+
+.bigWhich {
+  width: 100%;
+  padding: 20px 0;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container{
@@ -26,6 +42,15 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/* .events{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} */
 
 .container div{
     display: flex;
@@ -46,14 +71,14 @@ body {
     justify-content: center;
 }
 
-/* .msg{
+.msg{
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
     display:flex;
     align-items: center;
     justify-content: center;
-} */
+}
 
 @media all and (max-width: 1000px) {
     .flex-box .container{
@@ -72,27 +97,3 @@ body {
       text-align: center;
     }
 }
-
-/* Example media queries
-@media all and (max-width: 1000px) {
-    .flex-box {
-      width: 50%;
-      justify-content: space-evenly;
-    }
-    .flex-nav .social {
-      width: 25%;
-      justify-content: center;
-    }
-  }
-  
-  @media all and (max-width: 500px) {
-    .flex-nav ul li {
-      display: flex;
-      width: 100%;
-      justify-items: center;
-      text-align: center;
-    }
-    .flex-nav .social {
-      width: 25%;
-    }
-  } */
